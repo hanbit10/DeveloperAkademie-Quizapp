@@ -1,0 +1,82 @@
+[
+  {
+    "question": "What is the capital of France?",
+    "answer_1": "Berlin",
+    "answer_2": "Madrid",
+    "answer_3": "Paris",
+    "answer_4": "Rome",
+    "right_answer": 3
+  },
+  {
+    "question": "What is the largest planet in our solar system?",
+    "answer_1": "Mars",
+    "answer_2": "Venus",
+    "answer_3": "Jupiter",
+    "answer_4": "Saturn",
+    "right_answer": 3
+  },
+  {
+    "question": "What is the chemical symbol for water?",
+    "answer_1": "O2",
+    "answer_2": "CO2",
+    "answer_3": "H2O",
+    "answer_4": "N2",
+    "right_answer": 3
+  },
+  {
+    "question": "Which mammal can fly?",
+    "answer_1": "Bat",
+    "answer_2": "Elephant",
+    "answer_3": "Giraffe",
+    "answer_4": "Lion",
+    "right_answer": 1
+  },
+  {
+    "question": "What is the boiling point of water in Celsius?",
+    "answer_1": "0°C",
+    "answer_2": "50°C",
+    "answer_3": "100°C",
+    "answer_4": "200°C",
+    "right_answer": 3
+  },
+  {
+    "question": "Who painted the Mona Lisa?",
+    "answer_1": "Leonardo da Vinci",
+    "answer_2": "Pablo Picasso",
+    "answer_3": "Vincent van Gogh",
+    "answer_4": "Michelangelo",
+    "right_answer": 1
+  },
+  {
+    "question": "What is the tallest mammal?",
+    "answer_1": "Horse",
+    "answer_2": "Giraffe",
+    "answer_3": "Elephant",
+    "answer_4": "Lion",
+    "right_answer": 2
+  },
+  {
+    "question": "What is the currency of Japan?",
+    "answer_1": "Euro",
+    "answer_2": "Dollar",
+    "answer_3": "Yen",
+    "answer_4": "Pound",
+    "right_answer": 3
+  },
+  {
+    "question": "What is the chemical symbol for gold?",
+    "answer_1": "Ag",
+    "answer_2": "Au",
+    "answer_3": "Fe",
+    "answer_4": "Cu",
+    "right_answer": 2
+  },
+  {
+    "question": "What is the square root of 64?",
+    "answer_1": "4",
+    "answer_2": "6",
+    "answer_3": "8",
+    "answer_4": "10",
+    "right_answer": 3
+  }
+]
