@@ -25,25 +25,35 @@
 
     <div class="container">
       <div class="card quiz-card">
-        <img src="/quizapp/assets/img/quiz-bg.jpg" class="card-img-top" alt="..." />
-        <div class="card-body">
+        <img src="/quizapp/assets/img/quiz-bg.jpg" class="card-img-top" id="headerImg" alt="..." />
+        <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+          <div id="progressBar" class="progress-bar" style="width: 25%">25%</div>
+        </div>
+        <div class="card-body d-none column" id="endScreen">
+          <div class="ta-center quiz-text">Quiz beendet!</div>
+          <div class="ta-center">
+            Du hast <b id="amountOfRightQuestions">xx</b> Fragen von <b id="amountOfQuestions">xx</b> richtig beantwortet.
+          </div>
+          <button onclick="restartQuestions()" class="btn btn-primary mt-32" id="restartButton">Erneut spielen</button>
+        </div>
+        <div class="card-body" id="questionBody">
           <h5 class="card-title" id="questionText">Frage</h5>
-          <div class="card mb-2" id="answer_1">
-            <div class="card-body">Antwort</div>
+          <div class="card mb-2 quiz-answer-card" onclick="answer('answer_1')">
+            <div class="card-body" id="answer_1">Antwort</div>
           </div>
-          <div class="card mb-2" id="answer_2">
-            <div class="card-body">Antwort</div>
+          <div class="card mb-2 quiz-answer-card" onclick="answer('answer_2')">
+            <div class="card-body" id="answer_2">Antwort</div>
           </div>
-          <div class="card mb-2" id="answer_3">
-            <div class="card-body">Antwort</div>
+          <div class="card mb-2 quiz-answer-card" onclick="answer('answer_3')">
+            <div class="card-body" id="answer_3">Antwort</div>
           </div>
-          <div class="card mb-2" id="answer_4">
-            <div class="card-body">Antwort</div>
+          <div class="card mb-2 quiz-answer-card" onclick="answer('answer_4')">
+            <div class="card-body" id="answer_4">Antwort</div>
           </div>
 
           <div class="question-footer">
-            <span> <b>1</b> von <b id="all-questions"></b> Fragen </span>
-            <button class="btn btn-primary">Nächste Frage</button>
+            <span> <b id="questionNumber">1</b> von <b id="all-questions"></b> Fragen </span>
+            <button onclick="nextQuestion()" class="btn btn-primary" id="nextButton" disabled>Nächste Frage</button>
           </div>
         </div>
       </div>
